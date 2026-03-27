@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-dark-900: #111827;
+  --color-dark-800: #1f2937;
+}
+
+@layer base {
+  body {
+    @apply text-gray-900 m-0 p-0 font-sans antialiased;
+    background-color: #f8fafc;
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2000&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
